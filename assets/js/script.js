@@ -169,7 +169,7 @@ var taskStatusChangeHandler = function (event) {
         ".task-item[data-task-id='" + taskId + "']"
     );
 
-    var statusValue = event.target.Value.toLowerCase();
+    var statusValue = event.target.value.toLowerCase();
 
     if (statusValue === "to do") {
         tasksToDoEl.appendChild(taskSelected);
